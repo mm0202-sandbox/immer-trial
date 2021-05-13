@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "jest --forceExit --detectOpenHandles",
-    "test:watch": "yarn run test --watch",
+    "test:watch": "yarn run test --watchAll",
     "test:coverage": "yarn run test --coverage",
     "lint": "eslint ./**/*.{js,ts,jsx,tsx}",
     "lint:fix": "eslint ./**/*.{js,ts,jsx,tsx} --fix"
